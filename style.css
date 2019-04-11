@@ -114,7 +114,7 @@ img{
   width: 1000px !important;
 }
 .listing{
-  border: 1px solid gray;
+  border-left: 1px solid gray;
   width: 80%;
 }
 .con{
@@ -126,13 +126,25 @@ img{
   background-color:#fafafa;
   text-align: center;
   height: 100vh;
+
 }
 .nav1{
   background-image: url("business-computer-contemporary-218863.jpg");
   background-size: cover;
   color: white;
-  border:0px solid white;
+
+}
+.info{
+  display: flex;
+  border-bottom: solid 1px;
+}
+.lst{
+  list-style-type: none;
+}
+.empty{
+  height: 5vh;
+  border:0px solid white;/*
   -webkit-box-shadow: 10px 10px 31px 7px rgba(0,0,0,0.75);
   -moz-box-shadow: 10px 10px 31px 7px rgba(0,0,0,0.75);
-  box-shadow: 10px 10px 31px 7px rgba(0,0,0,0.25);
+  box-shadow: 10px 10px 31px 7px rgba(0,0,0,0.25);*/
 }
